@@ -87,7 +87,7 @@ Projeyi Klonlayın:
 
 bash
 Copy code
-git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
+git clone https://github.com/mberkiskal/Pneumonia(CNN-ANN-Transfer_Learning).git
 cd Pneumonia(CNN-ANN-Transfer_Learning)
 
 Sanal Ortamı Oluşturun:
