@@ -2,9 +2,9 @@
 
 ## Ders Bilgileri
 
-- *Dersin Kodu:* [YAZ20411](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)
-- *Dersin Adı:* [DERİN ÖĞRENME](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)
-- *Dersin Öğretim Elemanı:* Öğr. Gör. Dr. Fatih BAL [Github](https://github.com/balfatih) | [Web Sayfası](https://balfatih.github.io/)
+- **Dersin Kodu:** [YAZ20411](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)
+- **Dersin Adı:** [DERİN ÖĞRENME](https://ebp.klu.edu.tr/Ders/dersDetay/YAZ20411/716026/tr)
+- **Dersin Öğretim Elemanı:** Öğr. Gör. Dr. Fatih BAL [Github](https://github.com/balfatih) | [Web Sayfası](https://balfatih.github.io/)
 
 ---
 
@@ -69,68 +69,68 @@ Bu proje, özel bir sınıflandırma görevini gerçekleştirmek için Convoluti
 
 ### 1. Projeyi Klonlayın
 
-bash
-git clone https://github.com/mberkiskal/Pneumonia(CNN-ANN-Transfer_Learning)
+```bash
+git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
 cd Pneumonia(CNN-ANN-Transfer_Learning)
-
+```
 
 
 ### 2. Sanal Ortamı Oluşturun
 
-bash
+```bash
 python -m venv venv
 source venv/bin/activate   # Windows'ta: venv\Scripts\activate
-
+```
 
 ### 3. Gerekli Bağımlılıkları Yükleyin
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4. Veri Setini İndirin
 
-bash
+```bash
 wget https://drive.google.com/file/d/1QlnV6PUZ3ic8M1_22cC5bAjJocYZKn1P/view
 unzip Pneumonia.zip
-
+```
 
 ### 5. CNN - Transfer Learning Modelini Eğitin
 
-bash
+```bash
 cd CNN__Transfer_Learning__Test_0_20.ipynb
 python train.py
-
+```
 
 ### 6. Yapay Sinir Ağı Modelini Eğitin
 
-bash
+```bash
 cd Artificial_Neural_Network_0_35.ipynb
 python train.py
-
+```
 
 ### 7. Modelleri Değerlendirin
 
-bash
+```bash
 cd evaluation
 python evaluate.py
-
+```
 
 ### 8. Projeyi Sonlandırın
 
 Sanal ortamı sonlandırmak için:
 
-bash
+```bash
 deactivate   # Sanal ortamı kullandıysanız
-
+```
 
 ## Kullanım
 
 Kurulum başlığı altındaki adımlar takip edilir. Ayrıca aşağıdaki adımlar kontrol edilir.
 
-- *Konfigürasyon Dosyaları:* Projenin çeşitli özelliklerini yapılandırmak için config veya benzeri bir klasör içerisindeki dosyaları inceleyin.
-- *Veri Seti Düzeni:* Proje, özel bir veri seti üzerinde çalışıyorsa, veri seti düzenini ve dosya yollarını projenizin ihtiyaçlarına göre özelleştirin.
-- *Model Hyperparameters:* CNN veya Transfer Learning modellerinin hyperparameter'larını değiştirmek için train.py dosyalarındaki ilgili bölümleri inceleyin.
+- **Konfigürasyon Dosyaları:** Projenin çeşitli özelliklerini yapılandırmak için config veya benzeri bir klasör içerisindeki dosyaları inceleyin.
+- **Veri Seti Düzeni:** Proje, özel bir veri seti üzerinde çalışıyorsa, veri seti düzenini ve dosya yollarını projenizin ihtiyaçlarına göre özelleştirin.
+- **Model Hyperparameters:** CNN veya Transfer Learning modellerinin hyperparameter'larını değiştirmek için `train.py` dosyalarındaki ilgili bölümleri inceleyin.
 
 ## Katkılar
 
@@ -147,3 +147,4 @@ Kurulum başlığı altındaki adımlar takip edilir. Ayrıca aşağıdaki adım
 - yesimdmr000@gmail.com 
 - muhsinoztufek@gmail.com 
 ```
+
