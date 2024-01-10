@@ -70,7 +70,7 @@ Bu proje, özel bir sınıflandırma görevini gerçekleştirmek için Convoluti
 ### 1. Projeyi Klonlayın
 
 bash
-git clone https://github.com/kullanici_adi/Pneumonia(CNN-ANN-Transfer_Learning).git
+git clone https://github.com/mberkiskal/Pneumonia(CNN-ANN-Transfer_Learning).git
 cd Pneumonia(CNN-ANN-Transfer_Learning)
 
 
